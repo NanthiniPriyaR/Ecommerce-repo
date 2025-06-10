@@ -1,0 +1,38 @@
+.registration-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  background: gold;
+  border-radius: 16px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.registration-container h2 {
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.registration-container input,
+.registration-container select {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.registration-container button {
+  background-color: #000;
+  color: gold;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.registration-container button:hover {
+  background-color: #333;
+}
